@@ -1,5 +1,6 @@
 
 ===========================  Task 0 ===========================  
+
 Task 0 : memset
 Write a function that fills memory with a constant byte.
 
@@ -11,6 +12,7 @@ FYI: The standard library provides a similar function: memset. Run man memset to
 ![Alt text](image.png)
 
 ===========================  Task 1 =========================== 
+
 Task 1 : memcpy
 Write a function that copies memory area.
 
@@ -22,6 +24,7 @@ FYI: The standard library provides a similar function: memcpy. Run man memcpy to
 ![Alt text](image-1.png)
 
 ===========================  Task 2 =========================== 
+
 Task 2 : strchr
 Write a function that locates a character in a string.
 
@@ -31,6 +34,7 @@ Write a function that locates a character in a string.
 FYI: The standard library provides a similar function: strchr. Run man strchr to learn more.
 
 ===========================  Task 3 =========================== 
+
 Task 3 : strspn
 Write a function that gets the length of a prefix substring.
 
@@ -40,6 +44,7 @@ Write a function that gets the length of a prefix substring.
 FYI: The standard library provides a similar function: strspn. Run man strspn to learn more.
 
 ===========================  Task 4 =========================== 
+
 Task 4 : strpbrk
 Write a function that searches a string for any of a set of bytes.
 
@@ -50,6 +55,7 @@ Write a function that searches a string for any of a set of bytes.
 FYI: The standard library provides a similar function: strpbrk. Run man strpbrk to learn more.
 
 ===========================  Task 5 =========================== 
+
 Task 5 : strstr
 Write a function that locates a substring.
 
@@ -60,12 +66,14 @@ Write a function that locates a substring.
 FYI: The standard library provides a similar function: strstr. Run man strstr to learn more.
 
 ===========================  Task 6 =========================== 
+
  Task 6 : Chess is mental torture
 Write a function that prints the chessboard.
 
 - Prototype: void print_chessboard(char (*a)[8]);
 
-===========================  Task 7 =========================== 
+===========================  Task 7 ===========================
+
 Task 7 : The line of life is a ragged diagonal between duty and desire
 
 Write a function that prints the sum of the two diagonals of a square matrix of integers.
@@ -78,6 +86,7 @@ Note that in the following example we are casting an int[][] into an int*. This 
 The goal here is to make sure you understand how an array of array is stored in memory.
 
 ===========================  Task 8 =========================== 
+
 Task 8 : Double pointer, double fun
 
 Write a function that sets the value of a pointer to a char.
