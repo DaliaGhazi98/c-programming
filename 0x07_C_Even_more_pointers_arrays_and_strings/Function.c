@@ -248,6 +248,23 @@ void set_string(char **s, char *to)
 	*s = to;
 }
 /*------------------------------------------------------------------------------*/
+/*******************************************************************************
+ * static void ftoa(float value_f, uint8_t *res_uc) 
+ *
+ * API to convert float to ascii for debug purpose
+ *  
+ * @param value_f: Float value, *res_us: output ascii result, n: 1 for new line
+ * @return void
+ ******************************************************************************/
+static void ftoa(float value_f, uint8_t *res_uc) 
+{
+    if (value_f < 0) {
+        *res_uc++ = '-';
+        value_f = -value_f;
+    }
+    sprintf((char*) res_uc, "%lu.%02u", (long) value_f, (int) ((value_f - (long) value_f) * 100. + 0.5));
+}
+
 /*------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------*/
